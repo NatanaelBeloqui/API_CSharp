@@ -88,6 +88,26 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ProductClientHub.Communication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProductClientHub.Communication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductClientHub.Communication.dll": {}
+        }
+      },
+      "ProductClientHub.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProductClientHub.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductClientHub.Exceptions.dll": {}
+        }
       }
     }
   },
@@ -439,31 +459,43 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "ProductClientHub.Communication/1.0.0": {
+      "type": "project",
+      "path": "../Communication/ProductClientHub.Communication.csproj",
+      "msbuildProject": "../Communication/ProductClientHub.Communication.csproj"
+    },
+    "ProductClientHub.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../ProductClientHub.Exceptions/ProductClientHub.Exceptions.csproj",
+      "msbuildProject": "../ProductClientHub.Exceptions/ProductClientHub.Exceptions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ProductClientHub.Communication >= 1.0.0",
+      "ProductClientHub.Exceptions >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\natanael.barros\\.nuget\\packages\\": {},
+    "C:\\Users\\NatanaelBeloquideBar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natanael.barros\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\Natanael\\curso\\c#\\ProductClientHub\\ProductClientHub.API\\ProductClientHub.API.csproj",
+      "projectUniqueName": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\ProductClientHub.API\\ProductClientHub.API.csproj",
       "projectName": "ProductClientHub.API",
-      "projectPath": "C:\\Users\\natanael.barros\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\Natanael\\curso\\c#\\ProductClientHub\\ProductClientHub.API\\ProductClientHub.API.csproj",
-      "packagesPath": "C:\\Users\\natanael.barros\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natanael.barros\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\Natanael\\curso\\c#\\ProductClientHub\\ProductClientHub.API\\obj\\",
+      "projectPath": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\ProductClientHub.API\\ProductClientHub.API.csproj",
+      "packagesPath": "C:\\Users\\NatanaelBeloquideBar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\ProductClientHub.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\natanael.barros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NatanaelBeloquideBar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -472,13 +504,19 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\Communication\\ProductClientHub.Communication.csproj": {
+              "projectPath": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\Communication\\ProductClientHub.Communication.csproj"
+            },
+            "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\ProductClientHub.Exceptions\\ProductClientHub.Exceptions.csproj": {
+              "projectPath": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\ProductClientHub.Exceptions\\ProductClientHub.Exceptions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -521,7 +559,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

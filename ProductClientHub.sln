@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0 d17.14
+VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductClientHub.API", "ProductClientHub.API\ProductClientHub.API.csproj", "{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductClientHub.Communication", "Communication\ProductClientHub.Communication.csproj", "{23080231-AD25-4C74-9F4D-D769A206131E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductClientHub.Exceptions", "ProductClientHub.Exceptions\ProductClientHub.Exceptions.csproj", "{14E5B00D-2C6E-44BA-A371-848EC0658296}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23080231-AD25-4C74-9F4D-D769A206131E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23080231-AD25-4C74-9F4D-D769A206131E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23080231-AD25-4C74-9F4D-D769A206131E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23080231-AD25-4C74-9F4D-D769A206131E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E5B00D-2C6E-44BA-A371-848EC0658296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E5B00D-2C6E-44BA-A371-848EC0658296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E5B00D-2C6E-44BA-A371-848EC0658296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E5B00D-2C6E-44BA-A371-848EC0658296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
