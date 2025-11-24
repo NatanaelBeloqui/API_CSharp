@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dgGI7viU5rQ=",
+  "dgSpecHash": "VIwt9YVBx2g=",
   "success": true,
   "projectFilePath": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\ProductClientHub.API\\ProductClientHub.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\NatanaelBeloquideBar\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
     "C:\\Users\\NatanaelBeloquideBar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\NatanaelBeloquideBar\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\NatanaelBeloquideBar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
