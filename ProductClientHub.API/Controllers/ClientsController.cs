@@ -14,11 +14,22 @@ public class ClientsController : ControllerBase
 
     public IActionResult Register([FromBody] RequestClientJson request)
     {
-        var useCase = new RegisterClientUseCase();
+        try
+        {
+            var useCase = new RegisterClientUseCase();
 
-        var response = useCase.Execute(request);
+            var response = useCase.Execute(request);
 
-        return Created(string.Empty, response);
+            return Created(string.Empty, response);
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new ResponseErrorMessagesJson(ex.Message));
+        }
+        //catch (Exception ex)
+        //{
+            
+        //}
     }
 
     [HttpPut]
