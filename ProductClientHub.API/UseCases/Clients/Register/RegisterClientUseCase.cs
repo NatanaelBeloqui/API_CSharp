@@ -1,5 +1,6 @@
 ﻿using ProductClientHub.Communication.Requests;
 using ProductClientHub.Communication.Responses;
+using ProductClientHub.Exceptions.ExceptionBase;
 
 namespace ProductClientHub.API.UseCases.Clients.Register;
 
@@ -15,7 +16,7 @@ public class RegisterClientUseCase
 
         if (result.IsValid == false)
         {
-            throw new ArgumentException("ERRO NOS DADOS RECEBIDOS");
+            throw new ErrorOnValidationException("ERRO NOS DADOS RECEBIDOS");
         }
 
         return new ResponseClientJson();
