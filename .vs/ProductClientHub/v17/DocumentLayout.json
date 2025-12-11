@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23080231-AD25-4C74-9F4D-D769A206131E}|Communication\\ProductClientHub.Communication.csproj|c:\\users\\natanaelbeloquidebar\\onedrive - tunesoft tecnologia ltda\\documentos\\_natanael\\c#\\api\\api_csharp\\communication\\responses\\responseerrormessagesjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23080231-AD25-4C74-9F4D-D769A206131E}|Communication\\ProductClientHub.Communication.csproj|solutionrelative:communication\\responses\\responseerrormessagesjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}|ProductClientHub.API\\ProductClientHub.API.csproj|c:\\users\\natanaelbeloquidebar\\onedrive - tunesoft tecnologia ltda\\documentos\\_natanael\\c#\\api\\api_csharp\\productclienthub.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}|ProductClientHub.API\\ProductClientHub.API.csproj|solutionrelative:productclienthub.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}|ProductClientHub.API\\ProductClientHub.API.csproj|c:\\users\\natanaelbeloquidebar\\onedrive - tunesoft tecnologia ltda\\documentos\\_natanael\\c#\\api\\api_csharp\\productclienthub.api\\usecases\\clients\\register\\registerclientusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}|ProductClientHub.API\\ProductClientHub.API.csproj|solutionrelative:productclienthub.api\\usecases\\clients\\register\\registerclientusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}|ProductClientHub.API\\ProductClientHub.API.csproj|c:\\users\\natanaelbeloquidebar\\onedrive - tunesoft tecnologia ltda\\documentos\\_natanael\\c#\\api\\api_csharp\\productclienthub.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}|ProductClientHub.API\\ProductClientHub.API.csproj|solutionrelative:productclienthub.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23080231-AD25-4C74-9F4D-D769A206131E}|Communication\\ProductClientHub.Communication.csproj|c:\\users\\natanaelbeloquidebar\\onedrive - tunesoft tecnologia ltda\\documentos\\_natanael\\c#\\api\\api_csharp\\communication\\responses\\responseerrormessagesjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23080231-AD25-4C74-9F4D-D769A206131E}|Communication\\ProductClientHub.Communication.csproj|solutionrelative:communication\\responses\\responseerrormessagesjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B94768CD-2261-4B52-BB9F-DEE1BE9B73F4}|ProductClientHub.API\\ProductClientHub.API.csproj|c:\\users\\natanaelbeloquidebar\\onedrive - tunesoft tecnologia ltda\\documentos\\_natanael\\c#\\api\\api_csharp\\productclienthub.api\\usecases\\clients\\register\\registerclientvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ResponseErrorMessagesJson.cs",
               "DocumentMoniker": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\Communication\\Responses\\ResponseErrorMessagesJson.cs",
               "RelativeDocumentMoniker": "Communication\\Responses\\ResponseErrorMessagesJson.cs",
@@ -71,18 +71,17 @@
               "RelativeToolTip": "ProductClientHub.API\\UseCases\\Clients\\Register\\RegisterClientValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T15:03:10.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T15:03:10.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ClientsController.cs",
               "DocumentMoniker": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\ProductClientHub.API\\Controllers\\ClientsController.cs",
               "RelativeDocumentMoniker": "ProductClientHub.API\\Controllers\\ClientsController.cs",
               "ToolTip": "C:\\Users\\NatanaelBeloquideBar\\OneDrive - Tunesoft Tecnologia Ltda\\Documentos\\_Natanael\\c#\\api\\API_CSharp\\ProductClientHub.API\\Controllers\\ClientsController.cs",
               "RelativeToolTip": "ProductClientHub.API\\Controllers\\ClientsController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIAwwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAwwBkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T14:59:50.187Z",
               "EditorCaption": ""

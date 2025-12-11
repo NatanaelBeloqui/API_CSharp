@@ -11,6 +11,7 @@ public class ClientsController : ControllerBase
 {
     [HttpPost]
     [ProducesResponseType(typeof(ResponseClientJson), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status400BadRequest)]
 
     public IActionResult Register([FromBody] RequestClientJson request)
     {
@@ -26,10 +27,10 @@ public class ClientsController : ControllerBase
         {
             return BadRequest(new ResponseErrorMessagesJson(ex.Message));
         }
-        //catch (Exception ex)
-        //{
-            
-        //}
+        catch
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, new ResponseErrorMessagesJson("ERRO DESCONHECIDO"));
+        }
     }
 
     [HttpPut]
